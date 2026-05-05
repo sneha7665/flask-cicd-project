@@ -6,7 +6,7 @@ todos = []
 
 @app.route('/')
 def home():
-    return jsonify({"message": "Todo App is running!", "todos": todos})
+    return jsonify({"message": "My Flask App is Live", "todos": todos})
 
 @app.route('/add/<item>')
 def add_todo(item):
